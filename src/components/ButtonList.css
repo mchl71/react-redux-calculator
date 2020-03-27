@@ -1,0 +1,33 @@
+.buttonListContainer {
+	display: flex;
+}
+
+.listNumbers {
+	width: 60%;
+	border-top: 1px solid;
+	border-right: 1px solid;
+}
+
+.listOperators {
+	width: 40%;
+	border-top: 1px solid;
+}
+
+button {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 20px;
+}
+
+button.number {
+	background: darkgray;
+}
+
+button.operator {
+	background: lightgreen;
+}
+
+button.delete {
+	background: red;
+}
